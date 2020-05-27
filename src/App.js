@@ -1,11 +1,13 @@
 import React from 'react';
-import GetPostList from './containers/GetUserListContainer';
+import UserNew from './components/UserNew';
+import GetUserList from './containers/GetUserListContainer';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <GetPostList />
+        <UserNew />
+        <GetUserList />
       </div>
     )
   }
